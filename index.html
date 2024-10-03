@@ -116,6 +116,19 @@ a {
   text-align: right;
 }
 
+/* Add generic CSS from GROK to ensure that the site is mobile responsive. RTH on 10/02/2024. */
+.container {
+    width: 100%;
+    max-width: 1200px; /* Your base max-width for desktop */
+    margin: 0 auto;
+    padding: 0 15px; /* To ensure content isn't too close to edges on mobile */
+}
+
+img {
+    max-width: 100%; /* Ensures images don't overflow their container */
+    height: auto; /* Maintains aspect ratio */
+}
+
   </style>
 
 </head>
